@@ -290,9 +290,13 @@
      line-height: 21px;
      color: rgba(98, 101, 109, 1);
  }
- @media(max-width:384px){
 
- }
+ @media(max-width:384px) {
+    .account{
+     width: 100%;
+    }
+     }
+
  @media(min-width:1200px) {
      section::after {
          background-image: url(../image/png/blue-image.png);
