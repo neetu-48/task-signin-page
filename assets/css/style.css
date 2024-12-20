@@ -141,8 +141,8 @@
 
  label[for="password"] {
      position: relative;
-     display: flex;
-     align-items: center;
+     /* display: flex;
+     align-items: center; */
  }
 
  .lock-icon {
@@ -169,7 +169,7 @@
  .eye-icon {
      position: absolute;
      top: 50%;
-     left: 20%;
+     right: 15px;
      transform: translateY(-50%);
      cursor: pointer;
  }
@@ -193,9 +193,10 @@
      font-weight: 400;
      line-height: 21px;
      color: rgba(98, 101, 109, 1);
-     position: absolute;
-     right: 74%;
-
+     /* position: absolute;
+     right: 74%; */
+     max-width: 340px;
+     padding-left: 120px;
  }
 
  .sign-btn {
@@ -289,7 +290,9 @@
      line-height: 21px;
      color: rgba(98, 101, 109, 1);
  }
+ @media(max-width:384px){
 
+ }
  @media(min-width:1200px) {
      section::after {
          background-image: url(../image/png/blue-image.png);
@@ -306,17 +309,17 @@
  }
 
  @media(max-width:1200px) {
-     .col-xl-6::after{
-        background-image: url(../image/png/blue-image.png);
-        content: "";
-        position: absolute;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        right: 0;
-        height: 100%;
-        left: 0;
-        width: 100%;
+     .col-xl-6::after {
+         background-image: url(../image/png/blue-image.png);
+         content: "";
+         position: absolute;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         right: 0;
+         height: 100%;
+         left: 0;
+         width: 100%;
      }
  }
 
