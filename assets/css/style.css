@@ -40,7 +40,9 @@
  .justify-content-center {
      justify-content: center;
  }
-
+ .justify-content-right {
+    justify-content: right;
+}
  .justify-content-between {
      justify-content: space-between;
  }
@@ -141,8 +143,6 @@
 
  label[for="password"] {
      position: relative;
-     /* display: flex;
-     align-items: center; */
  }
 
  .lock-icon {
@@ -291,42 +291,78 @@
      color: rgba(98, 101, 109, 1);
  }
 
- @media(max-width:384px) {
-    .account{
-     width: 100%;
-     padding: 4px;
-    }
-     }
+ .hidden {
+     overflow: hidden;
+ }
 
- @media(min-width:1200px) {
+ .gap-3 {
+     gap: 12px;
+ }
+
+ /* @media(min-width:576px) {
+     .block {
+         display: block;
+     }
+ }
+
+ @media(max-width:575.98px) {
+     .py-36 {
+         padding-top: 36px;
+         padding-bottom: 36px;
+     }
+ } */
+
+
+ @media(min-width:992px) {
      section::after {
          background-image: url(../image/png/blue-image.png);
+         background-position: center;
+         background-size: cover;
          content: "";
          position: absolute;
-         background-position: center;
          background-repeat: no-repeat;
-         background-size: cover;
          right: 0;
          height: 100%;
          left: 50%;
          width: 50%;
      }
+
+     .blue-circle-img {
+         position: absolute;
+         z-index: 99;
+         right: 5%;
+         bottom: -56px;
+
+     }
+
+     .group-img {
+         position: absolute;
+         top: -337px;
+         right: 137px;
+         z-index: 99;
+     }
+
+     .icon-box {
+         position: absolute;
+         bottom: 0;
+         top: 64px;
+     }
  }
 
- @media(max-width:1200px) {
-     .col-xl-6::after {
+ /* @media(max-width:991.98px) {
+     .col-lg-6::after {
          background-image: url(../image/png/blue-image.png);
+         background-position: center;
+         background-size: cover;
          content: "";
          position: absolute;
-         background-position: center;
          background-repeat: no-repeat;
-         background-size: cover;
          right: 0;
          height: 100%;
          left: 0;
          width: 100%;
      }
- }
+ } */
 
 
  /*
