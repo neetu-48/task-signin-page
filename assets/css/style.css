@@ -294,6 +294,7 @@
  @media(max-width:384px) {
     .account{
      width: 100%;
+     padding: 4px;
     }
      }
 
