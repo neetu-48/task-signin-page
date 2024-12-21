@@ -454,169 +454,91 @@
 
  }
 
+ @media (max-width:767.98px) {
+     .union {
+         display: none;
+     }
 
- /* 
-img[ alt="social-icons"] {
-    position: absolute;
-    z-index: 99;
-    left: 128px;
-}
+     .group-photo {
+         position: absolute;
+         bottom: -358px;
+         right: 166px;
+         z-index: 99;
+     }
 
-.icon {
-    z-index: 1;
-    position: absolute;
-    left: 82px;
-    top: 16%;
-}
+     .icon-facebook {
+         position: absolute;
+         right: 398px;
+         top: 394px;
+         z-index: 99;
+     }
 
-.icon-2 {
-    z-index: 1;
-    position: absolute;
-    left: 82px;
-    top: 36%;
-}
+     .icon-linkedin {
+         position: absolute;
+         right: 302px;
+         top: 396px;
+         z-index: 99;
+     }
 
-.icon-3 {
-    z-index: 1;
-    position: absolute;
-    left: 82px;
-    top: 58%;
-}
+     .icon-instagram {
+         position: absolute;
+         right: 207px;
+         bottom: -471px;
+         z-index: 99;
+     }
 
-.icon-4 {
-    z-index: 1;
-    position: absolute;
-    left: 82px;
-    top: 78%;
-}
- */
- /* @media(max-width:991.98px) { */
- /* .col-lg-6::after {
-        content: "";
-        position: absolute;
-        background-image: url(../image/png/blue-image.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-        left: 0%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    } */
- /* 
-    img[alt="circle-image"] {
-        display: none;
-    }
+     .icon-twitter {
+         position: absolute;
+         right: 112px;
+         bottom: -470px;
+         z-index: 99;
+     }
 
-    img[ alt="social-icons"] {
-        position: absolute;
-        z-index: 99;
-        left: 325px;
-    }
+ }
 
-    .icon {
-        top: -19px;
-    }
+ @media (max-width:575.98px) {
+     .union {
+         display: none;
+     }
 
-    .icon-4 {
-        top: 289px;
-    }
+     .group-photo {
+         position: absolute;
+         bottom: -358px;
+         right: 33px;
+         z-index: 99;
+     }
 
-    .icon-2 {
-        top: 78px;
-    }
+     .icon-facebook {
+         position: absolute;
+         right: 231px;
+         top: 397px;
+         z-index: 99;
+     }
 
-    .icon-3 {
-        top: 192px;
-    }
+     .icon-linkedin {
+         position: absolute;
+         right: 152px;
+         top: 398px;
+         z-index: 99;
+     }
 
-}
+     .icon-instagram {
+         position: absolute;
+         right: 75px;
+         bottom: -472px;
+         z-index: 99;
+     }
 
-@media (min-width:992px) {
-    .section-image::after {
-        content: "";
-        position: absolute;
-        background-image: url(../image/png/blue-image.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        right: 0;
-        height: 100%;
-        left: 50%;
-        width: 50%;
-    }
+     .icon-twitter {
+         position: absolute;
+         right: -6px;
+         bottom: -470px;
+         z-index: 99;
+     }
 
-    img[alt="group"] {
-        z-index: 1;
-        position: absolute;
-        left: 120px;
-        top: 20%;
-    }
-
-    img[alt="union"] {
-        z-index: 1;
-        position: absolute;
-        left: 120px;
-        top: 20%;
-    }
-
-    .image-2 {
-        z-index: 1;
-        position: absolute;
-        left: 288px;
-        top: 27%;
-    }
-
-    .col-lg-6 {
-        width: 50%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
+ }
 
 
-    img[alt="circle-image"] {
-        position: absolute;
-        z-index: 1;
-        right: -173%;
-        bottom: -56px;
-    }
-
-    .form {
-        max-width: 340px;
-        width: 100%;
-    }
-
-    .col-lg-6 {
-        width: 50%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    img[ alt="social-icons"] {
-        position: absolute;
-        z-index: 99;
-        left: 101px;
-        cursor: pointer;
-    }
-
-    .icon {
-        top: 80px;
-    }
-
-    .icon-4 {
-        top: 390px;
-    }
-
-    .icon-2 {
-        top: 180px;
-    }
-
-    .icon-3 {
-        top: 290px;
-    }
-
-}
 
 @media (max-width:768px) {
 
@@ -692,4 +614,4 @@ img[ alt="social-icons"] {
         top: 1002px;
     }
 
-} */
+} 
