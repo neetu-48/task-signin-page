@@ -374,9 +374,9 @@
          justify-content: space-between;
      }
 
-     .continue {
+     /* .continue {
          text-align: center;
-     }
+     } */
 
      .continue:before {
          content: "";
@@ -419,8 +419,7 @@
 
      form {
          width: 100%;
-         white-space: nowrap;
-         max-width: 340px;
+         max-width: 345px;
      }
 
 
@@ -444,6 +443,10 @@
      form {
          width: 100%;
          max-width: 340px;
+     }
+
+     .mx-auto {
+         margin-left: 92px;
      }
 
      .blue-circle-img {
