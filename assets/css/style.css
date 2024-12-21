@@ -58,8 +58,12 @@
  }
 
  .mx-auto {
-     margin-left: auto;
-     margin-right: auto;
+     margin-left: 130px;
+     /* margin-right: 110px; */
+ }
+
+ .Postalott-logo {
+     padding-left: 130px;
  }
 
  .w-100 {
@@ -140,7 +144,7 @@
      border: 1px solid rgba(228, 234, 247, 1);
      background: rgba(245, 248, 255, 1);
      border-radius: 6px;
-     max-width: 340px;
+     /* max-width: 340px; */
  }
 
  label[for="password"] {
@@ -159,13 +163,12 @@
      font-family: "Lato", sans-serif;
      font-size: 14px;
      font-weight: 400;
-     line-height: 24px;
      width: 100%;
+     line-height: 24px;
      border: 1px solid rgba(228, 234, 247, 1);
      background: rgba(245, 248, 255, 1);
      border-radius: 6px;
-     /* margin-top: 10px; */
-     max-width: 340px;
+     /* max-width: 340px; */
  }
 
  .eye-icon {
@@ -195,9 +198,6 @@
      font-weight: 400;
      line-height: 21px;
      color: rgba(98, 101, 109, 1);
-     /* position: absolute;
-     right: 74%; */
-     max-width: 340px;
      padding-left: 120px;
  }
 
@@ -206,16 +206,16 @@
      font-size: 16px;
      font-weight: 400;
      line-height: 20px;
+     width: 100%;
      text-align: center;
      color: rgba(255, 255, 255, 1);
      background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
      padding: 14px 32px 14px 32px;
      border-radius: 50px;
-     width: 100%;
      border: 1px solid rgba(35 124 245);
      margin-top: 24px;
      cursor: pointer;
-     max-width: 340px;
+     /* max-width: 340px; */
      margin-bottom: 16px;
  }
 
@@ -232,7 +232,7 @@
 
  .continue:before {
      content: "";
-     width: 8%;
+     width: 9.5%;
      max-width: 340px;
      height: 1px;
      display: block;
@@ -245,13 +245,13 @@
 
  .continue:after {
      content: "";
-     width: 8.5%;
+     width: 10%;
      max-width: 340px;
      height: 1px;
      display: block;
      position: absolute;
      top: 50%;
-     right: 74%;
+     right: 70%;
      background-color: rgba(201, 207, 219, 1);
      margin-bottom: 20px;
  }
@@ -301,21 +301,387 @@
      gap: 12px;
  }
 
- /* @media(min-width:576px) {
-     .block {
-         display: block;
+ .layout {
+     display: flex;
+     padding-top: 12px;
+ }
+
+ @media(max-width:767.98px) {
+     .col-xl-6::after {
+         background-image: url(../image/png/blue-image.png);
+         background-position: center;
+         background-size: cover;
+         content: "";
+         position: absolute;
+         background-repeat: no-repeat;
+         right: 0;
+         height: 120%;
+         left: 0;
+         width: 150%;
      }
+
+     .blue-circle-img {
+         display: none;
+
+     }
+
+     .group-img {
+         display: none;
+     }
+
+     .union {
+         display: none;
+     }
+
+     .group-photo {
+         position: absolute;
+         bottom: -372px;
+         right: 26px;
+         z-index: 99;
+     }
+
+     .icon-facebook {
+         position: absolute;
+         right: 241px;
+         bottom: -481px;
+         z-index: 99;
+     }
+
+     .icon-linkedin {
+         position: absolute;
+         right: 154px;
+         bottom: -482px;
+         z-index: 99;
+     }
+
+     .icon-instagram {
+         position: absolute;
+         right: 64px;
+         bottom: -483px;
+         z-index: 99;
+     }
+
+     .icon-twitter {
+         position: absolute;
+         right: -24px;
+         bottom: -481px;
+         z-index: 99;
+     }
+
+     .layout {
+         display: flex;
+         padding-top: 12px;
+         justify-content: space-between;
+     }
+
+     .continue {
+         text-align: center;
+     }
+
+     .continue:before {
+         content: "";
+         width: 32%;
+         height: 1px;
+         display: block;
+         position: absolute;
+         top: 50%;
+         left: 6px;
+         background-color: rgba(201, 207, 219, 1);
+         margin-bottom: 20px;
+     }
+
+     .continue:after {
+         content: "";
+         width: 43%;
+         height: 1px;
+         display: block;
+         position: absolute;
+         top: 50%;
+         right: 0%;
+         background-color: rgba(201, 207, 219, 1);
+         margin-bottom: 20px;
+     }
+
+     input[type="email"][id="email"] {
+         width: 100%;
+         max-width: 340px;
+     }
+
+     input[type="password"][id="password"] {
+         width: 100%;
+         max-width: 340px;
+     }
+
+     .sign-btn {
+         width: 100%;
+         max-width: 340px;
+     }
+
+     form {
+         width: 100%;
+         white-space: nowrap;
+         max-width: 340px;
+     }
+
+
+
  }
 
  @media(max-width:575.98px) {
-     .py-36 {
-         padding-top: 36px;
-         padding-bottom: 36px;
+     .col-xl-6::after {
+         background-image: url(../image/png/blue-image.png);
+         background-position: center;
+         background-size: cover;
+         content: "";
+         position: absolute;
+         background-repeat: no-repeat;
+         right: 0;
+         height: 120%;
+         left: 0;
+         width: 150%;
      }
- } */
+
+     form {
+         width: 100%;
+         max-width: 340px;
+     }
+
+     .blue-circle-img {
+         display: none;
+
+     }
+
+     .group-img {
+         display: none;
+     }
+
+     .union {
+         display: none;
+     }
+
+     .group-photo {
+         position: absolute;
+         bottom: -372px;
+         right: -3px;
+         z-index: 99;
+     }
+
+     .icon-facebook {
+         position: absolute;
+         right: 205px;
+         bottom: -481px;
+         z-index: 99;
+     }
+
+     .icon-linkedin {
+         position: absolute;
+         right: 125px;
+         bottom: -482px;
+         z-index: 99;
+     }
+
+     .icon-instagram {
+         position: absolute;
+         right: 44px;
+         bottom: -483px;
+         z-index: 99;
+     }
+
+     .icon-twitter {
+         position: absolute;
+         right: -40px;
+         bottom: -481px;
+         z-index: 99;
+     }
 
 
- @media(min-width:992px) {
+ }
+
+ @media(max-width:319.98px) {
+     .col-xl-6::after {
+         background-image: url(../image/png/blue-image.png);
+         background-position: center;
+         background-size: cover;
+         content: "";
+         position: absolute;
+         background-repeat: no-repeat;
+         right: 0;
+         height: 120%;
+         left: 0;
+         width: 140%;
+     }
+
+     .mx-auto {
+         margin-left: 70px;
+         margin-right: 50px;
+     }
+
+     .blue-circle-img {
+         display: none;
+
+     }
+
+     .group-img {
+         display: none;
+     }
+
+     .union {
+         display: none;
+     }
+
+     .group-photo {
+         position: absolute;
+         bottom: -372px;
+         right: -45px;
+         z-index: 99;
+     }
+
+     .icon-facebook {
+         position: absolute;
+         right: 184px;
+         bottom: -481px;
+         z-index: 99;
+     }
+
+     .icon-linkedin {
+         position: absolute;
+         right: 89px;
+         bottom: -482px;
+         z-index: 99;
+     }
+
+     .icon-instagram {
+         position: absolute;
+         right: -3px;
+         bottom: -483px;
+         z-index: 99;
+     }
+
+     .icon-twitter {
+         position: absolute;
+         right: -96px;
+         bottom: -481px;
+         z-index: 99;
+     }
+
+
+ }
+
+ @media(max-width:1199.98px) and (min-width:768px) {
+     .col-xl-6::after {
+         background-image: url(../image/png/blue-image.png);
+         background-position: center;
+         background-size: cover;
+         content: "";
+         position: absolute;
+         background-repeat: no-repeat;
+         right: 0;
+         height: 120%;
+         left: 0;
+         width: 100%;
+     }
+
+     .mx-auto {
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     .layout {
+         display: flex;
+         padding-top: 12px;
+         justify-content: space-between;
+     }
+
+     .continue {
+         text-align: center;
+     }
+
+     .continue:before {
+         content: "";
+         width: 32%;
+         height: 1px;
+         display: block;
+         position: absolute;
+         top: 50%;
+         left: 6px;
+         background-color: rgba(201, 207, 219, 1);
+         margin-bottom: 20px;
+     }
+
+     .continue:after {
+         content: "";
+         width: 43%;
+         height: 1px;
+         display: block;
+         position: absolute;
+         top: 50%;
+         right: 0%;
+         background-color: rgba(201, 207, 219, 1);
+         margin-bottom: 20px;
+     }
+
+     .blue-circle-img {
+         position: absolute;
+         z-index: 99;
+         right: 206px;
+         top: 86px;
+
+     }
+
+     .group-img {
+         position: absolute;
+         top: 188px;
+         right: 287px;
+         z-index: 99;
+     }
+
+     .union {
+         position: absolute;
+         top: 176px;
+         right: 445px;
+         z-index: 99;
+     }
+
+     .group-photo {
+         position: absolute;
+         bottom: -477px;
+         right: 221px;
+         z-index: 99;
+     }
+
+
+     .icon-facebook {
+         position: absolute;
+         right: 625px;
+         bottom: -227px;
+         z-index: 99;
+     }
+
+     .icon-linkedin {
+         position: absolute;
+         right: 625px;
+         bottom: -326px;
+         z-index: 99;
+     }
+
+     .icon-instagram {
+         position: absolute;
+         right: 625px;
+         bottom: -441px;
+         z-index: 99;
+     }
+
+     .icon-twitter {
+         position: absolute;
+         right: 625px;
+         bottom: -543px;
+         z-index: 99;
+     }
+
+
+ }
+
+ @media(min-width:1200px) {
      section::after {
          background-image: url(../image/png/blue-image.png);
          background-position: center;
@@ -333,27 +699,42 @@
          position: absolute;
          z-index: 99;
          right: 59px;
-         top: -452px;
+         top: -470px;
 
+     }
+
+     input[type="email"][id="email"] {
+         width: 100%;
+         max-width: 340px;
+     }
+
+     input[type="password"][id="password"] {
+         width: 100%;
+         max-width: 340px;
+     }
+
+     .sign-btn {
+         width: 100%;
+         max-width: 340px;
      }
 
      .group-img {
          position: absolute;
-         top: -347px;
-         right: 137px;
+         top: -360px;
+         right: 135px;
          z-index: 99;
      }
 
      .union {
          position: absolute;
-         top: -353px;
-         right: 291px;
+         top: -375px;
+         right: 293px;
          z-index: 99;
      }
 
      .group-photo {
          position: absolute;
-         top: -305px;
+         top: -325px;
          right: 70px;
          z-index: 99;
      }
@@ -361,257 +742,29 @@
 
      .icon-facebook {
          position: absolute;
-         right: 460px;
-         top: -374px;
+         right: 480px;
+         top: -395px;
          z-index: 99;
      }
 
      .icon-linkedin {
          position: absolute;
-         right: 460px;
-         top: -275px;
+         right: 478px;
+         top: -300px;
          z-index: 99;
      }
 
      .icon-instagram {
          position: absolute;
-         right: 458px;
-         bottom: 88px;
+         right: 475px;
+         bottom: 110px;
          z-index: 99;
      }
 
      .icon-twitter {
          position: absolute;
-         right: 454px;
-         bottom: -13px;
+         right: 470px;
+         bottom: 10px;
          z-index: 99;
      }
  }
-
- @media(max-width:991.98px) {
-     .col-lg-6::after {
-         background-image: url(../image/png/blue-image.png);
-         background-position: center;
-         background-size: cover;
-         content: "";
-         position: absolute;
-         background-repeat: no-repeat;
-         right: 0;
-         height: 100%;
-         left: 0;
-         width: 100%;
-     }
-
-     .blue-circle-img {
-         display: none;
-     }
-
-     .group-img {
-         display: none;
-     }
-
-     .union {
-         position: absolute;
-         bottom: -406px;
-         right: 390px;
-         z-index: 99;
-     }
-
-     .group-photo {
-         position: absolute;
-         bottom: -358px;
-         right: 165px;
-         z-index: 99;
-     }
-
-     .icon-facebook {
-         position: absolute;
-         right: 565px;
-         top: 53px;
-         z-index: 99;
-     }
-
-     .icon-linkedin {
-         position: absolute;
-         right: 562px;
-         top: 152px;
-         z-index: 99;
-     }
-
-     .icon-instagram {
-         position: absolute;
-         right: 561px;
-         bottom: -335px;
-         z-index: 99;
-     }
-
-     .icon-twitter {
-         position: absolute;
-         right: 556px;
-         bottom: -440px;
-         z-index: 99;
-     }
-
- }
-
- @media (max-width:767.98px) {
-     .union {
-         display: none;
-     }
-
-     .group-photo {
-         position: absolute;
-         bottom: -358px;
-         right: 166px;
-         z-index: 99;
-     }
-
-     .icon-facebook {
-         position: absolute;
-         right: 398px;
-         top: 394px;
-         z-index: 99;
-     }
-
-     .icon-linkedin {
-         position: absolute;
-         right: 302px;
-         top: 396px;
-         z-index: 99;
-     }
-
-     .icon-instagram {
-         position: absolute;
-         right: 207px;
-         bottom: -471px;
-         z-index: 99;
-     }
-
-     .icon-twitter {
-         position: absolute;
-         right: 112px;
-         bottom: -470px;
-         z-index: 99;
-     }
-
- }
-
- @media (max-width:575.98px) {
-     .union {
-         display: none;
-     }
-
-     .group-photo {
-         position: absolute;
-         bottom: -358px;
-         right: 33px;
-         z-index: 99;
-     }
-
-     .icon-facebook {
-         position: absolute;
-         right: 231px;
-         top: 397px;
-         z-index: 99;
-     }
-
-     .icon-linkedin {
-         position: absolute;
-         right: 152px;
-         top: 398px;
-         z-index: 99;
-     }
-
-     .icon-instagram {
-         position: absolute;
-         right: 75px;
-         bottom: -472px;
-         z-index: 99;
-     }
-
-     .icon-twitter {
-         position: absolute;
-         right: -6px;
-         bottom: -470px;
-         z-index: 99;
-     }
-
- }
-
-
-
-@media (max-width:768px) {
-
-    .col-lg-6::after {
-        content: "";
-        position: absolute;
-        background-image: url(../image/png/blue-image.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-        left: 0%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    img[alt="group"] {
-        display: none;
-    }
-
-    img[alt="circle-image"] {
-        display: none;
-    }
-
-
-    img[alt="union"] {
-        z-index: 1;
-        position: absolute;
-        left: -160px;
-        top: 156%;
-    }
-
-    .image-2 {
-        z-index: 1;
-        position: absolute;
-        left: 12px;
-        top: 163%;
-    }
-
-
-    .form {
-        max-width: 340px;
-        width: 100%;
-    }
-
-    .col-lg-6 {
-        width: 50%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    img[ alt="social-icons"] {
-        position: absolute;
-        z-index: 99;
-        left: -203px;
-
-    }
-
-    .icon {
-        top: 790px;
-    }
-
-    .icon-4 {
-        top: 1101px;
-    }
-
-    .icon-2 {
-        top: 890px;
-    }
-
-    .icon-3 {
-        top: 1002px;
-    }
-
-} 
